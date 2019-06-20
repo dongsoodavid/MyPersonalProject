@@ -26,6 +26,10 @@
 
         </activity>
 
+        <activity android:name=".AboutProject2">
+
+        </activity>
+
         <meta-data android:name="com.kakao.sdk.AppKey" android:value="31aa8595e4c60c3f3ea4f5a44b20ea1d"/>
     </application>
     <uses-permission android:name="android.permission.INTERNET">

@@ -11,6 +11,7 @@ public class MapActivity extends Activity {
     @Override
     protected  void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_map);
         MapView mapview = new MapView(this) ;
         ViewGroup mapViewContainer = findViewById(R.id.map_view) ;
