@@ -1,28 +1,25 @@
 package com.ds.example.mypersonalproject;
 
 
-    public class DBList { {
-        String BigCategory;
-        String SmallCategory;
-        String ClassName ;
+    public class DBList {
+        private String CodeID;
+        private String CodeNAME;
 
-        public AccountList(BigCategory, SmallCategory, ClassName){
-            this.BigCategory = BigCategory;
-            this.SmallCategory = SmallCategory;
-            this.ClassName= ClassName;
+        public DBList(String CodeID, String CodeNAME){
+            this.CodeID = CodeID;
+            this.CodeNAME = CodeNAME;
         }
 
-        public String getAccountId() {
-            return accountId;
+        public String getCodeID() {
+            return CodeID;
         }
-        public void setAccountId(String accountId) {
-            this.accountId = accountId;
+        public void setAccountId(String CodeID) {
+            this.CodeID = CodeID;
         }
-        public String getAccountPw() {
-            return accountPw;
+        public String getCodeNAME() {
+            return CodeNAME;
         }
-        public void setAccountPw(String accountPw) {
-            this.accountPw = accountPw;
+        public void setAccountPw(String CodeNAME) {
+            this.CodeNAME = CodeNAME;
         }
     }
-}
